@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TextStripper.h"
 
 @interface RubyRemoverTests : XCTestCase
 
@@ -24,16 +25,19 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testShouldStripRubyMarkingsCorrectly {
+    NSString *rubyText = @"<ruby><rb>兄</rb><rp>【</rp><rt>あに</rt><rp>】</rp></ruby>は";
+    NSString *strippedText = [TextStripper stripTextFromRubyMarkings:rubyText];
+    
+    NSError *error = NULL;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"</?ruby>|【.*?】|</?r[b|p]>"
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&error];
+    
+    NSUInteger numberOfMatches = [regex numberOfMatchesInString:strippedText options:0 range:NSMakeRange(0, strippedText.length)];
+    
+    //Not even one ruby should remain afterwards
+    XCTAssertTrue(numberOfMatches == 0);
 }
 
 @end

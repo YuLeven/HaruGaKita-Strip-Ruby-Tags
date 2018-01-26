@@ -14,6 +14,7 @@
 		DA6416D7201BD880002E4559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416D6201BD880002E4559 /* main.m */; };
 		DA6416E2201BD880002E4559 /* RubyRemoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416E1201BD880002E4559 /* RubyRemoverTests.m */; };
 		DA6416ED201BD880002E4559 /* RubyRemoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416EC201BD880002E4559 /* RubyRemoverUITests.m */; };
+		DA6416FE201BE0E7002E4559 /* TextStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416FD201BE0E7002E4559 /* TextStripper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		DA6416E8201BD880002E4559 /* RubyRemoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyRemoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6416EC201BD880002E4559 /* RubyRemoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRemoverUITests.m; sourceTree = "<group>"; };
 		DA6416EE201BD880002E4559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6416FD201BE0E7002E4559 /* TextStripper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStripper.m; sourceTree = "<group>"; };
+		DA6416FF201BE0F1002E4559 /* TextStripper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStripper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +103,9 @@
 		DA6416C9201BD880002E4559 /* RubyRemover */ = {
 			isa = PBXGroup;
 			children = (
-				DA6416CA201BD880002E4559 /* AppDelegate.h */,
-				DA6416CB201BD880002E4559 /* AppDelegate.m */,
-				DA6416CD201BD880002E4559 /* ViewController.h */,
-				DA6416CE201BD880002E4559 /* ViewController.m */,
+				DA6416FC201BE0C1002E4559 /* Util */,
+				DA6416FB201BE0B7002E4559 /* Delegates */,
+				DA6416FA201BE0A8002E4559 /* Controllers */,
 				DA6416D0201BD880002E4559 /* Assets.xcassets */,
 				DA6416D2201BD880002E4559 /* Main.storyboard */,
 				DA6416D5201BD880002E4559 /* Info.plist */,
@@ -129,6 +131,33 @@
 				DA6416EE201BD880002E4559 /* Info.plist */,
 			);
 			path = RubyRemoverUITests;
+			sourceTree = "<group>";
+		};
+		DA6416FA201BE0A8002E4559 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416CD201BD880002E4559 /* ViewController.h */,
+				DA6416CE201BD880002E4559 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA6416FB201BE0B7002E4559 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416CA201BD880002E4559 /* AppDelegate.h */,
+				DA6416CB201BD880002E4559 /* AppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		DA6416FC201BE0C1002E4559 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416FF201BE0F1002E4559 /* TextStripper.h */,
+				DA6416FD201BE0E7002E4559 /* TextStripper.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,7 @@
 				DA6416CF201BD880002E4559 /* ViewController.m in Sources */,
 				DA6416D7201BD880002E4559 /* main.m in Sources */,
 				DA6416CC201BD880002E4559 /* AppDelegate.m in Sources */,
+				DA6416FE201BE0E7002E4559 /* TextStripper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
