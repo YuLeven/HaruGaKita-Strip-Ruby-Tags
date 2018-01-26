@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6416CC201BD880002E4559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416CB201BD880002E4559 /* AppDelegate.m */; };
+		DA6416CF201BD880002E4559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416CE201BD880002E4559 /* ViewController.m */; };
+		DA6416D1201BD880002E4559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6416D0201BD880002E4559 /* Assets.xcassets */; };
+		DA6416D4201BD880002E4559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6416D2201BD880002E4559 /* Main.storyboard */; };
+		DA6416D7201BD880002E4559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416D6201BD880002E4559 /* main.m */; };
+		DA6416E2201BD880002E4559 /* RubyRemoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416E1201BD880002E4559 /* RubyRemoverTests.m */; };
+		DA6416ED201BD880002E4559 /* RubyRemoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6416EC201BD880002E4559 /* RubyRemoverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA6416DE201BD880002E4559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6416BF201BD880002E4559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6416C6201BD880002E4559;
+			remoteInfo = RubyRemover;
+		};
+		DA6416E9201BD880002E4559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6416BF201BD880002E4559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6416C6201BD880002E4559;
+			remoteInfo = RubyRemover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA6416C7201BD880002E4559 /* RubyRemover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyRemover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6416CA201BD880002E4559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA6416CB201BD880002E4559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA6416CD201BD880002E4559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA6416CE201BD880002E4559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA6416D0201BD880002E4559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA6416D3201BD880002E4559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA6416D5201BD880002E4559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6416D6201BD880002E4559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA6416D8201BD880002E4559 /* RubyRemover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RubyRemover.entitlements; sourceTree = "<group>"; };
+		DA6416DD201BD880002E4559 /* RubyRemoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyRemoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6416E1201BD880002E4559 /* RubyRemoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRemoverTests.m; sourceTree = "<group>"; };
+		DA6416E3201BD880002E4559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6416E8201BD880002E4559 /* RubyRemoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyRemoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6416EC201BD880002E4559 /* RubyRemoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRemoverUITests.m; sourceTree = "<group>"; };
+		DA6416EE201BD880002E4559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6416C4201BD880002E4559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416DA201BD880002E4559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416E5201BD880002E4559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6416BE201BD880002E4559 = {
+			isa = PBXGroup;
+			children = (
+				DA6416C9201BD880002E4559 /* RubyRemover */,
+				DA6416E0201BD880002E4559 /* RubyRemoverTests */,
+				DA6416EB201BD880002E4559 /* RubyRemoverUITests */,
+				DA6416C8201BD880002E4559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6416C8201BD880002E4559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416C7201BD880002E4559 /* RubyRemover.app */,
+				DA6416DD201BD880002E4559 /* RubyRemoverTests.xctest */,
+				DA6416E8201BD880002E4559 /* RubyRemoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6416C9201BD880002E4559 /* RubyRemover */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416CA201BD880002E4559 /* AppDelegate.h */,
+				DA6416CB201BD880002E4559 /* AppDelegate.m */,
+				DA6416CD201BD880002E4559 /* ViewController.h */,
+				DA6416CE201BD880002E4559 /* ViewController.m */,
+				DA6416D0201BD880002E4559 /* Assets.xcassets */,
+				DA6416D2201BD880002E4559 /* Main.storyboard */,
+				DA6416D5201BD880002E4559 /* Info.plist */,
+				DA6416D6201BD880002E4559 /* main.m */,
+				DA6416D8201BD880002E4559 /* RubyRemover.entitlements */,
+			);
+			path = RubyRemover;
+			sourceTree = "<group>";
+		};
+		DA6416E0201BD880002E4559 /* RubyRemoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416E1201BD880002E4559 /* RubyRemoverTests.m */,
+				DA6416E3201BD880002E4559 /* Info.plist */,
+			);
+			path = RubyRemoverTests;
+			sourceTree = "<group>";
+		};
+		DA6416EB201BD880002E4559 /* RubyRemoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6416EC201BD880002E4559 /* RubyRemoverUITests.m */,
+				DA6416EE201BD880002E4559 /* Info.plist */,
+			);
+			path = RubyRemoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6416C6201BD880002E4559 /* RubyRemover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6416F1201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemover" */;
+			buildPhases = (
+				DA6416C3201BD880002E4559 /* Sources */,
+				DA6416C4201BD880002E4559 /* Frameworks */,
+				DA6416C5201BD880002E4559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyRemover;
+			productName = RubyRemover;
+			productReference = DA6416C7201BD880002E4559 /* RubyRemover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA6416DC201BD880002E4559 /* RubyRemoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6416F4201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemoverTests" */;
+			buildPhases = (
+				DA6416D9201BD880002E4559 /* Sources */,
+				DA6416DA201BD880002E4559 /* Frameworks */,
+				DA6416DB201BD880002E4559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6416DF201BD880002E4559 /* PBXTargetDependency */,
+			);
+			name = RubyRemoverTests;
+			productName = RubyRemoverTests;
+			productReference = DA6416DD201BD880002E4559 /* RubyRemoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA6416E7201BD880002E4559 /* RubyRemoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6416F7201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemoverUITests" */;
+			buildPhases = (
+				DA6416E4201BD880002E4559 /* Sources */,
+				DA6416E5201BD880002E4559 /* Frameworks */,
+				DA6416E6201BD880002E4559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6416EA201BD880002E4559 /* PBXTargetDependency */,
+			);
+			name = RubyRemoverUITests;
+			productName = RubyRemoverUITests;
+			productReference = DA6416E8201BD880002E4559 /* RubyRemoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6416BF201BD880002E4559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Yuri;
+				TargetAttributes = {
+					DA6416C6201BD880002E4559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DA6416DC201BD880002E4559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA6416C6201BD880002E4559;
+					};
+					DA6416E7201BD880002E4559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA6416C6201BD880002E4559;
+					};
+				};
+			};
+			buildConfigurationList = DA6416C2201BD880002E4559 /* Build configuration list for PBXProject "RubyRemover" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA6416BE201BD880002E4559;
+			productRefGroup = DA6416C8201BD880002E4559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6416C6201BD880002E4559 /* RubyRemover */,
+				DA6416DC201BD880002E4559 /* RubyRemoverTests */,
+				DA6416E7201BD880002E4559 /* RubyRemoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6416C5201BD880002E4559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6416D1201BD880002E4559 /* Assets.xcassets in Resources */,
+				DA6416D4201BD880002E4559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416DB201BD880002E4559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416E6201BD880002E4559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6416C3201BD880002E4559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6416CF201BD880002E4559 /* ViewController.m in Sources */,
+				DA6416D7201BD880002E4559 /* main.m in Sources */,
+				DA6416CC201BD880002E4559 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416D9201BD880002E4559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6416E2201BD880002E4559 /* RubyRemoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6416E4201BD880002E4559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6416ED201BD880002E4559 /* RubyRemoverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA6416DF201BD880002E4559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6416C6201BD880002E4559 /* RubyRemover */;
+			targetProxy = DA6416DE201BD880002E4559 /* PBXContainerItemProxy */;
+		};
+		DA6416EA201BD880002E4559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6416C6201BD880002E4559 /* RubyRemover */;
+			targetProxy = DA6416E9201BD880002E4559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA6416D2201BD880002E4559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6416D3201BD880002E4559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA6416EF201BD880002E4559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA6416F0201BD880002E4559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA6416F2201BD880002E4559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RubyRemover/RubyRemover.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA6416F3201BD880002E4559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RubyRemover/RubyRemover.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA6416F5201BD880002E4559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RubyRemover.app/Contents/MacOS/RubyRemover";
+			};
+			name = Debug;
+		};
+		DA6416F6201BD880002E4559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RubyRemover.app/Contents/MacOS/RubyRemover";
+			};
+			name = Release;
+		};
+		DA6416F8201BD880002E4559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RubyRemover;
+			};
+			name = Debug;
+		};
+		DA6416F9201BD880002E4559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6P3D7QV4;
+				INFOPLIST_FILE = RubyRemoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.harugakita.RubyRemoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RubyRemover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6416C2201BD880002E4559 /* Build configuration list for PBXProject "RubyRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6416EF201BD880002E4559 /* Debug */,
+				DA6416F0201BD880002E4559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6416F1201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6416F2201BD880002E4559 /* Debug */,
+				DA6416F3201BD880002E4559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6416F4201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6416F5201BD880002E4559 /* Debug */,
+				DA6416F6201BD880002E4559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6416F7201BD880002E4559 /* Build configuration list for PBXNativeTarget "RubyRemoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6416F8201BD880002E4559 /* Debug */,
+				DA6416F9201BD880002E4559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6416BF201BD880002E4559 /* Project object */;
+}
